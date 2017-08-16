@@ -1,0 +1,14 @@
+info:
+  name: ${spring.application.name}
+  component: Empty Application
+
+app:
+  center: 10.1.1.157:8000
+
+server:
+  port: ${port:9000}
+
+logging:
+  level:
+    org.springframework: INFO
+    cn.gtmap.gtcc.empty: DEBUG
