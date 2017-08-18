@@ -1,6 +1,6 @@
 info:
   name: ${spring.application.name}
-  component: Empty Application
+  component: Empty Application Test
 
 app:
   center: 10.1.1.157:8000
