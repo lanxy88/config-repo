@@ -1,0 +1,21 @@
+info:
+  name: ${spring.application.name}
+  component: Resource Application Test
+
+app:
+  center: http://192.168.90.11:8000/eureka/
+
+spring:
+  rabbitmq:
+    host: 10.1.1.157
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: ${port:9001}
+
+logging:
+  level:
+    org.springframework: WARN
+    cn.gtmap.gtcc.resource: DEBUG
